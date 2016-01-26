@@ -21,6 +21,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- [Web Logs](#web-logs)
 	- [System Survey](#system-survey)
 	- [Memory Analysis](#memory-analysis)
+	- [Threat Intelligence](#threat-intelligence)
 - [Courses](#courses)
 
 ## Tactical Exploitation
@@ -82,6 +83,11 @@ Autoit Resources:
 ### System Survey
 
 ### Memory Analysis
+
+### Threat Intelligence
+
+- [APT Notes](https://github.com/kbandla/APTnotes)
+- [APT Notes Extension](https://aptnotes.malwareconfig.com/)
 
 ## Courses
 
