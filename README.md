@@ -31,7 +31,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 ### Malware Prototyping
 
 Autoit Resources:
-- [Windows Firewall](https://www.autoitscript.com/forum/topic/145158-windows-firewall-udf/).
+- [Windows Firewall](https://www.autoitscript.com/forum/topic/145158-windows-firewall-udf/)
 	- Enable or Disable the Windows Firewall
 	- Add or Remove Authorized Applications to the Exclusions list
 	- Add or Delete Ports from the Exclusions list.
@@ -86,8 +86,8 @@ Autoit Resources:
 
 ### Threat Intelligence
 
-- [APT Notes](https://github.com/kbandla/APTnotes)
-- [APT Notes Extension](https://aptnotes.malwareconfig.com/)
+- [APT Notes](https://github.com/kbandla/APTnotes) - Various public documents, whitepapers and articles about APT campaigns.
+- [APT Notes Extension](https://aptnotes.malwareconfig.com/) - An extension of the work done by @kbandla to collate a repository of public Cyber Security APT Reports.
 
 ## Courses
 
