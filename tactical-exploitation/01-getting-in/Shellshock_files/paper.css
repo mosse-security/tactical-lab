@@ -1,0 +1,152 @@
+/*
+   This CSS stylesheet is intended for papers/essays in HTML;
+   headings are auto-numbered, and a "title" class is available.
+
+   Copyright (C) 2004-2006 David A. Wheeler <dwheeler, at dwheeler.com>,
+   and released under the "MIT/X" license:
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the
+   "Software"), to deal in the Software without restriction, including without
+   limitation the rights to use, copy, modify, merge, publish, distribute,
+   sublicense, and/or sell copies of the Software, and to permit persons to
+   whom the Software is furnished to do so, subject to the following
+   conditions:
+
+   The above copyright notice and the following permission notice shall be
+   included in all copies of the Software:
+
+    THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR
+    OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+    ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+    OF OTHER DEALINGS IN THE SOFTWARE.
+
+   Except as contained in this notice, the name of the author(s) shall not
+   be used in advertising or otherwise to promote the use or other dealings
+   in this Software without prior written authorization from the author(s).
+*/
+
+@media screen, print {
+  body {
+     color: black;
+     background: white;
+  }
+}
+
+/* Automatic numbering has been in CSS since 1998, but
+   Internet Explorer and Mozilla have not supported it.
+   Firefox 1.5 supports them, so now finally it's reasonable to enable in 2006.
+   DO NOT place constant numbering in essays - let the browser do it!
+
+   Note: Older versions of Firefox followed a draft of CSS 2.1, not CSS 2.
+   Details here:
+   http://www.davidflanagan.com/blog/2005_08.html#000075 (minor error tho)
+   https://bugzilla.mozilla.org/show_bug.cgi?id=3247
+   https://bugzilla.mozilla.org/show_bug.cgi?id=3247#c109
+
+  Things changed since.  The following now works.
+*/
+
+
+  h1 {
+    counter-increment: h1c;
+    counter-reset: h2c;
+  }
+  h1:before {
+    display: marker;
+    content: counter(h1c) ". ";
+  }
+
+  h2 {
+    counter-increment: h2c;
+    counter-reset: h3c;
+  }
+  h2:before {
+    display: marker;
+    content: counter(h1c) "." counter(h2c) ". ";
+  }
+
+  h3 {
+    counter-increment: h3c;
+    counter-reset: h4c;
+  }
+  h3:before {
+    display: marker;
+    content: counter(h1c) "." counter(h2c) "." counter(h3c) ". ";
+  }
+
+  h4 {
+    counter-increment: h4c;
+  }
+  h4:before {
+    display: marker;
+    content: counter(h1c) "." counter(h2c) "." counter(h3c) "." counter(h4c) ". ";
+  }
+
+/* "Special" h1 and h2 levels - these override the numbering. */
+
+  h1.title {
+    text-align: center; color: #339900;
+    counter-reset: h1c -1;
+  }
+  h1.title:before, h1.unnumbered:before {
+    content: "";
+    display: none;
+  }
+
+  h2.date,h2.author { text-align: center; margin-top: 2px; padding-top: 2px; margin-bottom: 2px; padding-bottom: 2px; }
+  h2.date:before, h2.author:before { content: ""; margin-top: 2px; padding-top: 2px; margin-bottom: 2px; padding-bottom: 2px; }
+
+
+
+  /* Indent paragraphs.
+     I'd like to use the P property "text-indent", but this
+     is not correctly implemented some versions of Internet Explorer
+     and Mozilla. So, we'll use this workaround. Unfortunately, this
+     workaround makes Safari offset the whole line, not wrapping it
+     correctly; Loup Vaillant has reported this as bug March 2009.
+     If anyone has suggestions for what to do instead, please let me know.
+     - David A. Wheeler */
+
+  p:first-letter { margin-left: 2em; }
+
+  q { quotes: "&#8220;" "&#8221;" "&#8216;" "&#8217;" }
+
+  q:before {
+    content: open-quote;
+  }
+
+  q:after {
+    content: close-quote;
+  }
+
+  p.question:first-letter { margin-left: 1em; }
+
+  p.question {
+     margin-top: 2em;
+     margin-left: 0;
+     font-style: italic ; font-weight: bold;
+     font-size: 140%;
+  }
+
+/* Don't include link "junk" formatting when printing. */
+
+@media print {
+
+  p, blockquote { font-size: 12pt; }
+
+  h1, h1.title { font-size: 16pt; }
+
+  h2, h2.author, h2.date { font-size: 14pt; }
+
+  a { text-decoration: none }
+
+}
+
+.center {
+  margin-left: auto;  
+  margin-right: auto;  
+}
