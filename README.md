@@ -1,4 +1,4 @@
-# Tactical Lab
+﻿# Tactical Lab
 
 > A curated list of tools, papers and techniques for Windows exploitation and incident response.
 
@@ -27,9 +27,15 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 ## Tactical Exploitation
 
 ### Getting In
-
+- [Burp Suite](https://portswigger.net/burp/)
+- [Dirbuster](https://github.com/digination/dirbuster-ng)
+- [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit)
+- [SQL Map](https://github.com/sqlmapproject/sqlmap)
+- [THC Hydra](https://github.com/vanhauser-thc/thc-hydra)
 ### Malware Prototyping
-
+- [DNSteal](https://github.com/m57/dnsteal)
+- [Windows Exploit Suggester](https://github.com/GDSSecurity/Windows-Exploit-Suggester)
+- [Gcat](https://github.com/byt3bl33d3r/gcat)
 Autoit Resources:
 - [Windows Firewall](https://www.autoitscript.com/forum/topic/145158-windows-firewall-udf/)
 	- Enable or Disable the Windows Firewall
@@ -56,22 +62,28 @@ Autoit Resources:
 	- Search in each File of the Zip Archive
 
 ### Host Reconnaissance
+- [WMIOps](https://github.com/ChrisTruncer/WMIOps)
+- [NetRipper](https://github.com/NytroRST/NetRipper)
 
 ### Network Reconnaissance
-
+- [Veil](https://github.com/Veil-Framework/Veil/)
+- [Networkenum](https://github.com/maksaraswat/networkenum/)
+- [Ostinato](https://github.com/pstavirs/ostinato)
+- [AD](https://www.autoitscript.com/forum/files/file/355-ad-active-directory-udf/)
 ### Privilege Escalation
-
 - [Encyclopaedia Of Windows Privilege Escalation](https://www.insomniasec.com/downloads/publications/WindowsPrivEsc.ppt) - Most common privilege escalation techniques up to 2011.
 - [PowerUp](https://github.com/HarmJ0y/PowerUp) - Powershell privilege escalation tool.
-
+- [Potato](https://github.com/foxglovesec/Potato)
 ### Persistence
 
 ### Lateral Movement
+- [PAExec](https://github.com/poweradminllc/PAExec)
+- [Pivoter](https://github.com/trustedsec/pivoter)
 
 ### Mimikatz
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz) - Official Mimikatz source code repository.
-
+- [Empire](https://github.com/PowerShellEmpire/Empire)
 ## Tactical Response
 
 ### Event Logs
