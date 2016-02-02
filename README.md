@@ -77,20 +77,29 @@ Autoit Resources:
 ### Host Reconnaissance
 
 - [NetRipper](https://github.com/NytroRST/NetRipper)
+- [File Server Triage](http://www.harmj0y.net/blog/redteaming/file-server-triage-on-red-team-engagements/)
 
 ### Network Reconnaissance
 
 - [PowerTools](https://github.com/PowerShellEmpire/PowerTools)
-- [Veil](https://github.com/Veil-Framework/Veil/)
 - [Networkenum](https://github.com/maksaraswat/networkenum/)
+- [DNS Reconnaissance with NMAP](https://isc.sans.edu/forums/diary/DNS+Reconnaissance+using+nmap/20349/)
+- [Nessus for Host Discovery](https://www.tenable.com/blog/using-nessus-for-host-discovery)
+- [NMAP Network Scanning](https://nmap.org/book/man-performance.html)
 
 ### Privilege Escalation
 
 - [Encyclopaedia Of Windows Privilege Escalation](https://www.insomniasec.com/downloads/publications/WindowsPrivEsc.ppt) - Most common privilege escalation techniques up to 2011.
 - [PowerUp](https://github.com/HarmJ0y/PowerUp) - Powershell privilege escalation tool.
 - [Potato](https://github.com/foxglovesec/Potato)
+- [Group Policy Hijacking](https://labs.mwrinfosecurity.com/blog/2015/04/02/how-to-own-any-windows-network-with-group-policy-hijacking-attacks/)
 
 ### Persistence
+
+- [Many Ways of Malware Persistence](http://jumpespjump.blogspot.com.au/2015/05/many-ways-of-malware-persistence-that.html)
+- [Stealthy Malware Persistence](https://isc.sans.edu/forums/diary/Wipe+the+drive+Stealthy+Malware+Persistence+Mechanism+Part+1/15394/)
+- [Triggers as a Windows Persistence Mechanism](http://trustedsignal.blogspot.com/2014/02/triggers-as-windows-persistence.html)
+- [Persistence Wiki](https://attack.mitre.org/wiki/Persistence)
 
 ### Lateral Movement
 
@@ -98,10 +107,15 @@ Autoit Resources:
 - [WMIOps](https://github.com/ChrisTruncer/WMIOps)
 - [PAExec](https://github.com/poweradminllc/PAExec)
 - [Pivoter](https://github.com/trustedsec/pivoter)
+- [VPN Pivoting](http://blog.cobaltstrike.com/2014/10/14/how-vpn-pivoting-works-with-source-code/)
 
 ### Mimikatz
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz) - Official Mimikatz source code repository.
+- [Dumping Passwords](http://carnal0wnage.attackresearch.com/2013/10/dumping-domains-worth-of-passwords-with.html)
+- [Mimikatz Unofficial Guide](https://adsecurity.org/?page_id=1821)
+- [Golden Ticket Walkthrough](http://www.beneaththewaves.net/Projects/Mimikatz_20_-_Golden_Ticket_Walkthrough.html)
+- [Pass the Hash](http://blog.cobaltstrike.com/2015/05/21/how-to-pass-the-hash-with-mimikatz/)
 
 ### Exfiltration
 
