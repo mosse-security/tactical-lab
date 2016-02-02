@@ -15,6 +15,8 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- [Persistence](#persistence)
 	- [Lateral Movement](#lateral-movement)
 	- [Mimikatz](#mimikatz)
+	- [Exfiltration](#exfiltration)
+
 - [Tactical Response](#tactical-response)
 	- [Event Logs](#event-logs)
 	- [DNS Logs](#dns-logs)
@@ -28,16 +30,21 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 ### Getting In
 
-- [Burp Suite](https://portswigger.net/burp/)
-- [Dirbuster](https://github.com/digination/dirbuster-ng)
+- [Phishing Frenzy](https://github.com/pentestgeek/phishing-frenzy)
+- [PhEmail](https://github.com/Dionach/PhEmail)
+- [Windows Exploit Suggester](https://github.com/GDSSecurity/Windows-Exploit-Suggester)
 - [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit)
 - [SQL Map](https://github.com/sqlmapproject/sqlmap)
 - [THC Hydra](https://github.com/vanhauser-thc/thc-hydra)
 
 ### Malware Prototyping
 
-- [DNSteal](https://github.com/m57/dnsteal)
-- [Windows Exploit Suggester](https://github.com/GDSSecurity/Windows-Exploit-Suggester)
+- [Ettercap](https://github.com/Ettercap/ettercap)
+- [File Joiner](https://code.google.com/archive/p/advanced-file-joiner/)
+- [Perl Dictionary Attack](https://code.google.com/archive/p/perl-https-dictionary-attack/)
+- [Firecat](https://github.com/BishopFox/firecat)
+- [Empire](https://github.com/PowerShellEmpire/Empire)
+- [Veil Evasion](https://github.com/Veil-Framework/Veil-Evasion)
 - [Gcat](https://github.com/byt3bl33d3r/gcat)
 
 Autoit Resources:
@@ -65,16 +72,17 @@ Autoit Resources:
 	- Search a File in the Zip Archive
 	- Search in each File of the Zip Archive
 
+- [AD](https://www.autoitscript.com/forum/files/file/355-ad-active-directory-udf/)
+
 ### Host Reconnaissance
-- [WMIOps](https://github.com/ChrisTruncer/WMIOps)
+
 - [NetRipper](https://github.com/NytroRST/NetRipper)
 
 ### Network Reconnaissance
 
+- [PowerTools](https://github.com/PowerShellEmpire/PowerTools)
 - [Veil](https://github.com/Veil-Framework/Veil/)
 - [Networkenum](https://github.com/maksaraswat/networkenum/)
-- [Ostinato](https://github.com/pstavirs/ostinato)
-- [AD](https://www.autoitscript.com/forum/files/file/355-ad-active-directory-udf/)
 
 ### Privilege Escalation
 
@@ -86,13 +94,22 @@ Autoit Resources:
 
 ### Lateral Movement
 
+- [Veil Catapult](https://github.com/Veil-Framework/Veil-Catapult)
+- [WMIOps](https://github.com/ChrisTruncer/WMIOps)
 - [PAExec](https://github.com/poweradminllc/PAExec)
 - [Pivoter](https://github.com/trustedsec/pivoter)
 
 ### Mimikatz
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz) - Official Mimikatz source code repository.
-- [Empire](https://github.com/PowerShellEmpire/Empire)
+
+### Exfiltration
+
+- [DNSteal](https://github.com/m57/dnsteal)
+
+### Miscellaneous
+
+- [Ostinato](https://github.com/pstavirs/ostinato)
 
 ## Tactical Response
 
@@ -102,14 +119,29 @@ Autoit Resources:
 
 ### Web Logs
 
+- [Log Analysis Guide](http://resources.infosecinstitute.com/log-analysis-web-attacks-beginners-guide/)
+- [Apache Scalp](https://code.google.com/archive/p/apache-scalp/)
+
 ### System Survey
 
 ### Memory Analysis
+
+- [Volatility](https://github.com/volatilityfoundation/volatility)
 
 ### Threat Intelligence
 
 - [APT Notes](https://github.com/kbandla/APTnotes) - Various public documents, whitepapers and articles about APT campaigns.
 - [APT Notes Extension](https://aptnotes.malwareconfig.com/) - An extension of the work done by @kbandla to collate a repository of public Cyber Security APT Reports.
+- [Threat Intelligence Reports](https://www.fireeye.com/current-threats/threat-intelligence-reports.html)
+- [Malware Domains](http://www.malwaredomains.com/)
+- [Recorded Future](https://www.recordedfuture.com/)
+- [Threat Intelligence Review](http://threatintelligencereview.com/)	
+- [Binary Defense](http://www.binarydefense.com/banlist.txt)
+- [Malcode Malware Domains](http://malc0de.com/bl/)
+- [Palevo Tracker](https://palevotracker.abuse.ch/blocklists.php)
+- [Zeus Tracker](https://zeustracker.abuse.ch/blocklist.php)
+- [SSL Blacklist](https://sslbl.abuse.ch/)
+- [Emerging Threats Rulesets](http://rules.emergingthreats.net/)
 
 ## Courses
 
