@@ -87,7 +87,7 @@ Autoit Resources:
 
 ### Host Reconnaissance
 
-= [Pass Hunt](https://github.com/Dionach/PassHunt) - Search drives for documents containing passwords
+- [Pass Hunt](https://github.com/Dionach/PassHunt) - Search drives for documents containing passwords
 - [Enum Shares](https://github.com/dejanlevaja/enum_shares) - Enumerates shared folders
 - [NetRipper](https://github.com/NytroRST/NetRipper) - Network traffic sniffer
 - [File Server Triage](http://www.harmj0y.net/blog/redteaming/file-server-triage-on-red-team-engagements/) - Information regarding file server data pilfering
