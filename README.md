@@ -30,6 +30,10 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 ### Getting In
 
+- [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf)
+- [Social Engineering Techniques pt.1](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques/)
+- [Social Engineering Techniques pt.2](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques-2-0/)
+- [Social Engineering Techniques pt.3](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques-3-0/)
 - [Ettercap](https://github.com/Ettercap/ettercap) - Suite of Man-In-The-Middle attacks
 - [SPF SpeedPhishing Framework](https://github.com/tatanus/SPF) - Python tool for quick phishing exercises
 - [SeeS](https://github.com/galkan/sees/) - Phishing email domain spoofer
@@ -45,10 +49,13 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Windows Exploit Suggester](https://github.com/GDSSecurity/Windows-Exploit-Suggester) - Compares a targets patch levels to detect missing patches
 - [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) - Social engineering framework with multiple attack vectors
 - [SQL Map](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection tool
+- [NoSQL Map](https://github.com/tcstool/NoSQLMap) - Automatic NoSQL database auditor and exploiter
 - [THC Hydra](https://github.com/vanhauser-thc/thc-hydra) - Login bruteforcer
 
 ### Malware Prototyping
 
+- [Throwback](https://github.com/silentbreaksec/Throwback) - HTTP/S beaconing implant
+- [ThrowbackLP](https://github.com/silentbreaksec/ThrowbackLP) - Listening post for Throwback HTTP/S beaconing implant
 - [The Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) - Patch binaries with shellcode without affecting binary execution
 - [Dragon](https://github.com/Shellntel/backdoors) - Listens on a magic port, can be used to download binaries from source IP connecting to the port
 - [File Joiner](https://code.google.com/archive/p/advanced-file-joiner/) - Merges two files into one
@@ -87,6 +94,7 @@ Autoit Resources:
 
 ### Host Reconnaissance
 
+- [Netview](https://github.com/mubix/netview) - Enumeration tool for shares,sessions,users and more
 - [Pass Hunt](https://github.com/Dionach/PassHunt) - Search drives for documents containing passwords
 - [Enum Shares](https://github.com/dejanlevaja/enum_shares) - Enumerates shared folders
 - [NetRipper](https://github.com/NytroRST/NetRipper) - Network traffic sniffer
@@ -137,12 +145,20 @@ Autoit Resources:
 
 ### Exfiltration
 
+- [Dnscat2](https://github.com/iagox86/dnscat2) - DNS tunnel with encryption and a focus on C&C
 - [Tunna](https://github.com/SECFORCE/Tunna) - Tunnels TCP communication over HTTP
 - [ICMPTX](https://github.com/jakkarth/icmptx) - Tunnels IP over ICMP
 - [DNSteal](https://github.com/m57/dnsteal) - Tunnels data over DNS
 
 ### Miscellaneous
 
+- [The Harvester](https://github.com/laramies/theHarvester) - Information gathering tool utilizing public sources to gain information on a company/organization
+- [Intersect](https://github.com/deadbits/Intersect-2.5) - Post-Exploitation framework
+- [Nishang](https://github.com/samratashok/nishang) - Framework which enables the usage of PowerShell for red teaming
+- [Zarp](https://github.com/hatRiot/zarp) - Network attack tool
+- [Pupy](https://github.com/n1nj4sec/pupy) - RAT, uses reflective dll injection on windows platforms
+- [Vulnerability Research](https://github.com/praveendhac/VulnerabilityResearch) - Collection of scripts, fuzzers, exploits and more
+- [P0wned Shell](https://github.com/Cn33liz/p0wnedShell) - Post-exploitation powershell toolkit
 - [DBD Durandal's Backdoor](https://github.com/gitdurandal/dbd) - Portable Netcat clone with various features
 - [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - Variety of pentesting functions for Windows/Active Directory environments
 - [Ostinato](https://github.com/pstavirs/ostinato) - Packet/Traffic generator and analyzer
@@ -150,6 +166,9 @@ Autoit Resources:
 ## Tactical Response
 
 ### Event Logs
+
+- [EVTXtract](https://github.com/williballenthin/EVTXtract) - Tool to recover and reconstruct fragments of EVTX log files from raw binary data, including unallocated space
+- [Process Forest](https://github.com/williballenthin/process-forest) - Tool to reconstruct the historical process heirarchies from event logs
 
 ### DNS Logs
 
