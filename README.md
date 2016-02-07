@@ -30,11 +30,13 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 ### Getting In
 
+- [The Art of Human Hacking](https://sin.thecthulhu.com/library/security/social_engineering/The_Art_of_Human_Hacking.pdf)
 - [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf)
 - [Social Engineering Techniques pt.1](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques/)
 - [Social Engineering Techniques pt.2](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques-2-0/)
 - [Social Engineering Techniques pt.3](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques-3-0/)
 - [Ettercap](https://github.com/Ettercap/ettercap) - Suite of Man-In-The-Middle attacks
+- [Ettercap Tutorial](http://www.thegeekstuff.com/2012/05/ettercap-tutorial/)
 - [SPF SpeedPhishing Framework](https://github.com/tatanus/SPF) - Python tool for quick phishing exercises
 - [SeeS](https://github.com/galkan/sees/) - Phishing email domain spoofer
 - [Generate-Macro](https://github.com/enigma0x3/Generate-Macro) - Malicious Microsoft Office doc generator
@@ -48,7 +50,9 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [PhEmail](https://github.com/Dionach/PhEmail) - Python email phishing automator
 - [Windows Exploit Suggester](https://github.com/GDSSecurity/Windows-Exploit-Suggester) - Compares a targets patch levels to detect missing patches
 - [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) - Social engineering framework with multiple attack vectors
+- [Beginning with the Social Engineering Toolkit](http://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/)
 - [SQL Map](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection tool
+- [SQL Map Hacking Tutorial](http://www.binarytides.com/sqlmap-hacking-tutorial/)
 - [NoSQL Map](https://github.com/tcstool/NoSQLMap) - Automatic NoSQL database auditor and exploiter
 - [THC Hydra](https://github.com/vanhauser-thc/thc-hydra) - Login bruteforcer
 
@@ -102,6 +106,9 @@ Autoit Resources:
 
 ### Network Reconnaissance
 
+- [Scanning and Enumeration](http://booksite.elsevier.com/samplechapters/9781597496278/Chapter_3.pdf)
+- [Hunting for Sensitive Data with Veil](https://www.veil-framework.com/hunting-sensitive-data-veil-framework/)
+- [Post Exploitation Redux](http://www.counterhack.net/talks/Post%20Exploitation%20Redux%20-%20Skoudis&StrandSMALL.pdf)
 - [Lanmap2](https://github.com/rflynn/lanmap2) - Builds database and visualizations of LAN structure from passively sifted information
 - [IVRE](https://github.com/cea-sec/ivre) - Network reconnaissance framework
 - [Flashlight](https://github.com/galkan/flashlight) - Automated network information gathering tool
@@ -114,6 +121,7 @@ Autoit Resources:
 
 ### Privilege Escalation
 
+- [All Roads Lead to System](https://labs.mwrinfosecurity.com/system/assets/760/original/Windows_Services_-_All_roads_lead_to_SYSTEM.pdf)
 - [PhpSploit](https://github.com/nil0x42/phpsploit) - Stealth post-exploitation framework with a focus on privilege escalation
 - [Encyclopaedia Of Windows Privilege Escalation](https://www.insomniasec.com/downloads/publications/WindowsPrivEsc.ppt) - Most common privilege escalation techniques up to 2011.
 - [PowerUp](https://github.com/HarmJ0y/PowerUp) - Powershell privilege escalation tool.
@@ -129,6 +137,8 @@ Autoit Resources:
 
 ### Lateral Movement
 
+- [Tunneling, Pivoting, and Web Application Penetration Testing](https://www.sans.org/reading-room/whitepapers/testing/tunneling-pivoting-web-application-penetration-testing-36117)
+- [Using WMI to Build a Backdoor](https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor.pdf)
 - [Veil Catapult](https://github.com/Veil-Framework/Veil-Catapult) - Payload delivery tool
 - [WMIOps](https://github.com/ChrisTruncer/WMIOps) - Using WMI for a variety of local and remote functions
 - [PAExec](https://github.com/poweradminllc/PAExec) - Remote execution tool
@@ -145,6 +155,7 @@ Autoit Resources:
 
 ### Exfiltration
 
+- [Advanced Data Exfiltration](http://www.iamit.org/blog/2012/01/advanced-data-exfiltration/)
 - [Dnscat2](https://github.com/iagox86/dnscat2) - DNS tunnel with encryption and a focus on C&C
 - [Tunna](https://github.com/SECFORCE/Tunna) - Tunnels TCP communication over HTTP
 - [ICMPTX](https://github.com/jakkarth/icmptx) - Tunnels IP over ICMP
@@ -167,26 +178,43 @@ Autoit Resources:
 
 ### Event Logs
 
+- [A Forensic Analysis of APT Lateral Movement in Windows](https://www.first.org/resources/papers/conference2014/a-forensic-analysis-of-apt-lateral-movement-in-windows-environment.pptx)
+- [Detecting Security Incidents Windows Workstation Event Logs](https://www.sans.org/reading-room/whitepapers/logging/detecting-security-incidents-windows-workstation-event-logs-34262)
+- [Spotting the Adversary with Windows Event Log Monitoring](https://www.nsa.gov/ia/_files/app/spotting_the_adversary_with_windows_event_log_monitoring.pdf)
 - [EVTXtract](https://github.com/williballenthin/EVTXtract) - Tool to recover and reconstruct fragments of EVTX log files from raw binary data, including unallocated space
 - [Process Forest](https://github.com/williballenthin/process-forest) - Tool to reconstruct the historical process heirarchies from event logs
 
 ### DNS Logs
 
+- [DNS Traffic Monitoring1](http://www.securityskeptic.com/DNS_Monitoring20140130.pdf)
+- [Using Log Correlation Engine to Monitor DNS](http://static.tenable.com/prod_docs/LCE_DNS.pdf)
+- [DNS Traffic Monitoring2](http://mastersicurezza.di.uniroma1.it/mastersicurezza/images/materiali/Convegni/dns_monitoringdeftcon2015.pdf) 
+- [Monitor DNS Traffic & You Just Might Catch A RAT](http://www.darkreading.com/attacks-breaches/monitor-dns-traffic-and-you-just-might-catch-a-rat/a/d-id/1269593)
+
 ### Web Logs
 
+- [Detecting Attacks on Web Applicaions from Log Files](https://www.sans.org/reading-room/whitepapers/logging/detecting-attacks-web-applications-log-files-2074)
 - [Web Server Log Analysis](http://forensicmethods.com/webshell-log-analysis)
 - [Log Analysis Guide](http://resources.infosecinstitute.com/log-analysis-web-attacks-beginners-guide/)
 - [Apache Scalp](https://code.google.com/archive/p/apache-scalp/)
 
 ### System Survey
 
+- [Cheat Sheet]
+- [Identifying Lateral Movement]
+
 ### Memory Analysis
 
+- [Indicators of Compromise in Memory Forensics](https://www.sans.org/reading-room/whitepapers/forensics/indicators-compromise-memory-forensics-34162)
+- [Detect Malware with Memory Forensics](http://www.deer-run.com/~hal/Detect_Malware_w_Memory_Forensics.pdf)
+- [Hunting Malware with Memory Analysis](https://www.solutionary.com/resource-center/blog/2012/12/hunting-malware-with-memory-analysis/)
+- [Memory Forensics Cheat Sheet](https://digital-forensics.sans.org/media/memory-forensics-cheat-sheet.pdf)
 - [Introduction to Windows Memory Analysis](https://www.youtube.com/watch?v=SjDH_vTuefM)
 - [Volatility](https://github.com/volatilityfoundation/volatility)
 
 ### Threat Intelligence
 
+- [Leveraging Threat Intelligence in Incident Respponse/Management]
 - [APT Notes](https://github.com/kbandla/APTnotes) - Various public documents, whitepapers and articles about APT campaigns.
 - [APT Notes Extension](https://aptnotes.malwareconfig.com/) - An extension of the work done by @kbandla to collate a repository of public Cyber Security APT Reports.
 - [Threat Intelligence Reports](https://www.fireeye.com/current-threats/threat-intelligence-reports.html)
