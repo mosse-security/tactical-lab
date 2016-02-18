@@ -8,6 +8,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 - [Tactical Exploitation](#tactical-exploitation)
 	- [Getting In](#getting-in)
+	- [Web Backdoors](#web-backdoors)
 	- [Malware Prototyping](#malware-prototyping)
 	- [Host Reconnaissance](#host-reconnaissance)
 	- [Network Reconnaissance](#network-reconnaissance)
@@ -16,6 +17,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- [Lateral Movement](#lateral-movement)
 	- [Mimikatz](#mimikatz)
 	- [Exfiltration](#exfiltration)
+	- [Miscellaneous](#miscellaneous)
 
 - [Tactical Response](#tactical-response)
 	- [Event Logs](#event-logs)
@@ -30,41 +32,34 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 ### Getting In
 
+- [The Harvester](https://github.com/laramies/theHarvester) - Information gathering tool utilizing public sources to gain information on a company/organization
 - [The Art of Human Hacking](https://sin.thecthulhu.com/library/security/social_engineering/The_Art_of_Human_Hacking.pdf)
 - [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf)
-- [Social Engineering Techniques pt.1](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques/)
-- [Social Engineering Techniques pt.2](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques-2-0/)
-- [Social Engineering Techniques pt.3](http://resources.infosecinstitute.com/phishing-and-social-engineering-techniques-3-0/)
 - [Ettercap](https://github.com/Ettercap/ettercap) - Suite of Man-In-The-Middle attacks
 - [Ettercap Tutorial](http://www.thegeekstuff.com/2012/05/ettercap-tutorial/)
 - [SPF SpeedPhishing Framework](https://github.com/tatanus/SPF) - Python tool for quick phishing exercises
 - [SeeS](https://github.com/galkan/sees/) - Phishing email domain spoofer
 - [Generate-Macro](https://github.com/enigma0x3/Generate-Macro) - Malicious Microsoft Office doc generator
-- [Origama](https://code.google.com/archive/p/origami-pdf/) - Malicious PDF generator
-- [Mana](https://github.com/sensepost/mana) - Rogue AP and MitM toolkit
-- [Man in the Middle Framework](https://github.com/byt3bl33d3r/MITMf) - Framework for Man-In-The-Middle attacks
 - [Gitrob](https://github.com/michenriksen/gitrob) - GitHub organizations reconnaissance tool, hunts for sensitive data
 - [Weevely3](https://github.com/epinna/weevely3) - Web shell
 - [QuasiBot](https://github.com/Smaash/quasibot) - Web shell manager
 - [Phishing Frenzy](https://github.com/pentestgeek/phishing-frenzy) - Ruby on Rails Phishing Framework
 - [PhEmail](https://github.com/Dionach/PhEmail) - Python email phishing automator
-- [Windows Exploit Suggester](https://github.com/GDSSecurity/Windows-Exploit-Suggester) - Compares a targets patch levels to detect missing patches
 - [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) - Social engineering framework with multiple attack vectors
 - [Beginning with the Social Engineering Toolkit](http://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/)
-- [SQL Map](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection tool
-- [SQL Map Hacking Tutorial](http://www.binarytides.com/sqlmap-hacking-tutorial/)
-- [NoSQL Map](https://github.com/tcstool/NoSQLMap) - Automatic NoSQL database auditor and exploiter
 - [THC Hydra](https://github.com/vanhauser-thc/thc-hydra) - Login bruteforcer
+
+### Web Backdoors
+
+- [PhpSploit](https://github.com/nil0x42/phpsploit) - Stealth post-exploitation framework with a focus on privilege escalation
 
 ### Malware Prototyping
 
-- [Throwback](https://github.com/silentbreaksec/Throwback) - HTTP/S beaconing implant
-- [ThrowbackLP](https://github.com/silentbreaksec/ThrowbackLP) - Listening post for Throwback HTTP/S beaconing implant
+- [DBD Durandal's Backdoor](https://github.com/gitdurandal/dbd) - Portable Netcat clone with various features
+- [Pupy](https://github.com/n1nj4sec/pupy) - RAT, uses reflective dll injection on windows platforms
 - [The Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) - Patch binaries with shellcode without affecting binary execution
 - [Dragon](https://github.com/Shellntel/backdoors) - Listens on a magic port, can be used to download binaries from source IP connecting to the port
 - [File Joiner](https://code.google.com/archive/p/advanced-file-joiner/) - Merges two files into one
-- [Perl Dictionary Attack](https://code.google.com/archive/p/perl-https-dictionary-attack/) - SSL protected login bruteforcer
-- [Firecat](https://github.com/BishopFox/firecat) - Tool to create reverse TCP tunnels
 - [Empire](https://github.com/PowerShellEmpire/Empire) - PowerShell post-exploitation agent
 - [Veil Evasion](https://github.com/Veil-Framework/Veil-Evasion) - Payload generator with a focus on AV evasion
 - [Gcat](https://github.com/byt3bl33d3r/gcat) - Backdoor that uses Gmail for C&C
@@ -111,8 +106,6 @@ Autoit Resources:
 - [Post Exploitation Redux](http://www.counterhack.net/talks/Post%20Exploitation%20Redux%20-%20Skoudis&StrandSMALL.pdf)
 - [Lanmap2](https://github.com/rflynn/lanmap2) - Builds database and visualizations of LAN structure from passively sifted information
 - [IVRE](https://github.com/cea-sec/ivre) - Network reconnaissance framework
-- [Flashlight](https://github.com/galkan/flashlight) - Automated network information gathering tool
-- [Find DNS](https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html) - DNS server enumerator
 - [PowerTools](https://github.com/PowerShellEmpire/PowerTools) - Collection of PowerShell projects with a focus on offensive operations
 - [Networkenum](https://github.com/maksaraswat/networkenum/) - Network enumerator that uses the Scapy framework
 - [DNS Reconnaissance with NMAP](https://isc.sans.edu/forums/diary/DNS+Reconnaissance+using+nmap/20349/) - Using NMAP to gather DNS information
@@ -122,14 +115,13 @@ Autoit Resources:
 ### Privilege Escalation
 
 - [All Roads Lead to System](https://labs.mwrinfosecurity.com/system/assets/760/original/Windows_Services_-_All_roads_lead_to_SYSTEM.pdf)
-- [PhpSploit](https://github.com/nil0x42/phpsploit) - Stealth post-exploitation framework with a focus on privilege escalation
 - [Encyclopaedia Of Windows Privilege Escalation](https://www.insomniasec.com/downloads/publications/WindowsPrivEsc.ppt) - Most common privilege escalation techniques up to 2011.
 - [PowerUp](https://github.com/HarmJ0y/PowerUp) - Powershell privilege escalation tool.
-- [Potato](https://github.com/foxglovesec/Potato) - Privilege escalation through NTLM relay and NBNS spoofing
 - [Group Policy Hijacking](https://labs.mwrinfosecurity.com/blog/2015/04/02/how-to-own-any-windows-network-with-group-policy-hijacking-attacks/) - Group policy hijacking example and description
 
 ### Persistence
 
+- [Using WMI to Build a Backdoor](https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor.pdf)
 - [Many Ways of Malware Persistence](http://jumpespjump.blogspot.com.au/2015/05/many-ways-of-malware-persistence-that.html) 
 - [Stealthy Malware Persistence](https://isc.sans.edu/forums/diary/Wipe+the+drive+Stealthy+Malware+Persistence+Mechanism+Part+1/15394/)
 - [Triggers as a Windows Persistence Mechanism](http://trustedsignal.blogspot.com/2014/02/triggers-as-windows-persistence.html)
@@ -137,8 +129,6 @@ Autoit Resources:
 
 ### Lateral Movement
 
-- [Tunneling, Pivoting, and Web Application Penetration Testing](https://www.sans.org/reading-room/whitepapers/testing/tunneling-pivoting-web-application-penetration-testing-36117)
-- [Using WMI to Build a Backdoor](https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor.pdf)
 - [Veil Catapult](https://github.com/Veil-Framework/Veil-Catapult) - Payload delivery tool
 - [WMIOps](https://github.com/ChrisTruncer/WMIOps) - Using WMI for a variety of local and remote functions
 - [PAExec](https://github.com/poweradminllc/PAExec) - Remote execution tool
@@ -155,6 +145,7 @@ Autoit Resources:
 
 ### Exfiltration
 
+- [Firecat](https://github.com/BishopFox/firecat) - Tool to create reverse TCP tunnels
 - [Advanced Data Exfiltration](http://www.iamit.org/blog/2012/01/advanced-data-exfiltration/)
 - [Dnscat2](https://github.com/iagox86/dnscat2) - DNS tunnel with encryption and a focus on C&C
 - [Tunna](https://github.com/SECFORCE/Tunna) - Tunnels TCP communication over HTTP
@@ -163,14 +154,8 @@ Autoit Resources:
 
 ### Miscellaneous
 
-- [The Harvester](https://github.com/laramies/theHarvester) - Information gathering tool utilizing public sources to gain information on a company/organization
-- [Intersect](https://github.com/deadbits/Intersect-2.5) - Post-Exploitation framework
 - [Nishang](https://github.com/samratashok/nishang) - Framework which enables the usage of PowerShell for red teaming
 - [Zarp](https://github.com/hatRiot/zarp) - Network attack tool
-- [Pupy](https://github.com/n1nj4sec/pupy) - RAT, uses reflective dll injection on windows platforms
-- [Vulnerability Research](https://github.com/praveendhac/VulnerabilityResearch) - Collection of scripts, fuzzers, exploits and more
-- [P0wned Shell](https://github.com/Cn33liz/p0wnedShell) - Post-exploitation powershell toolkit
-- [DBD Durandal's Backdoor](https://github.com/gitdurandal/dbd) - Portable Netcat clone with various features
 - [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - Variety of pentesting functions for Windows/Active Directory environments
 - [Ostinato](https://github.com/pstavirs/ostinato) - Packet/Traffic generator and analyzer
 
@@ -195,7 +180,6 @@ Autoit Resources:
 
 - [Detecting Attacks on Web Applicaions from Log Files](https://www.sans.org/reading-room/whitepapers/logging/detecting-attacks-web-applications-log-files-2074)
 - [Web Server Log Analysis](http://forensicmethods.com/webshell-log-analysis)
-- [Log Analysis Guide](http://resources.infosecinstitute.com/log-analysis-web-attacks-beginners-guide/)
 - [Apache Scalp](https://code.google.com/archive/p/apache-scalp/)
 
 ### System Survey
