@@ -66,7 +66,9 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Veil Evasion](https://github.com/Veil-Framework/Veil-Evasion) - Payload generator with a focus on AV evasion
 - [Gcat](https://github.com/byt3bl33d3r/gcat) - Backdoor that uses Gmail for C&C
 - [PowerBreach](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerBreach)
-= [PowerPick](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerPick)
+- [PowerPick](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerPick)
+- [Building Better Tools](https://books.google.com.au/books?id=zOI5kYk13joC&pg=PA255&lpg=PA255&dq=information+gathering+compromised+machine+post+exploitation&source=bl&ots=f9DRVfxNV4&sig=GlcOKaYPtRvlyYhxo5jDFc771v4&hl=en&sa=X&ved=0ahUKEwiztMaxqLPLAhVC32MKHS3MADcQ6AEILDAD#v=onepage&q=information%20gathering%20compromised%20machine%20post%20exploitation&f=false)
+- [Process Hollowing](http://www.autosectools.com/process-hollowing.pdf)
 
 Autoit Resources:
 - [Windows Firewall](https://www.autoitscript.com/forum/topic/145158-windows-firewall-udf/)
@@ -127,6 +129,11 @@ Autoit Resources:
 - [Many Ways of Malware Persistence](http://jumpespjump.blogspot.com.au/2015/05/many-ways-of-malware-persistence-that.html) 
 - [Triggers as a Windows Persistence Mechanism](http://trustedsignal.blogspot.com/2014/02/triggers-as-windows-persistence.html)
 - [Persistence Wiki](https://attack.mitre.org/wiki/Persistence)
+- [Practical Persistence with PowerShell](http://www.exploit-monday.com/2013/04/PersistenceWithPowerShell.html)
+- [Persistence - Powerpreter and Nishang](http://www.labofapenetrationtester.com/2014/01/powerpreter-and-nishang-Part-3.html)
+- [Windows Registry Persistence Part 1](https://blog.cylance.com/windows-registry-persistence-part-1-introduction-attack-phases-and-windows-services)
+- [Windows Registry Persistence Part 2](https://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order)
+
 
 ### Lateral Movement
 
@@ -136,6 +143,7 @@ Autoit Resources:
 - [Pivoter](https://github.com/trustedsec/pivoter) - Proxy tool to assist with lateral movement
 - [VPN Pivoting](http://blog.cobaltstrike.com/2014/10/14/how-vpn-pivoting-works-with-source-code/)
 - [Making the Lateral Move](http://blog.varonis.com/penetration-testing-explained-part-iv-making-the-lateral-move/)
+- [SprayWMI](https://github.com/trustedsec/spraywmi) - SprayWMI is an easy way to get mass shells on systems that support WMI
 
 ### Mimikatz
 
@@ -163,20 +171,32 @@ Autoit Resources:
 
 ### Miscellaneous
 
+- [Pentesting Procedure](https://stelfox.net/knowledge_base/pentesting/procedure/)
 - [Nishang](https://github.com/samratashok/nishang) - Framework which enables the usage of PowerShell for red teaming
 - [Zarp](https://github.com/hatRiot/zarp) - Network attack tool
 - [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - Variety of pentesting functions for Windows/Active Directory environments
 - [Ostinato](https://github.com/pstavirs/ostinato) - Packet/Traffic generator and analyzer
+- [Abusing Native Shims for Post Exploitation](http://sdb.tools/files/Defcon_v5.pdf)
+- [Meta Post Exploitation](https://www.blackhat.com/presentations/bh-usa-08/Smith_Ames/BH_US_08_Smith_Ames_Meta-Post_Exploitation.pdf)
+- [Information Gathering](http://profs.info.uaic.ro/~busaco/teach/courses/net/docs/infonet.pdf)
+- [Empire Offensive Powershell Part 1](https://www.youtube.com/watch?v=aDeJBe6eqps)
+- [Empire Offensive Powershell Part 2](https://www.youtube.com/watch?v=t2iIIvm1oyk)
+- [Empire Offensive Powershell Part 3](https://www.youtube.com/watch?v=XHe1ECERGpA)
+- [Powercat](https://github.com/besimorhino/powercat) - Netcat: The powershell version
+- [PSAttack](https://github.com/gdssecurity/PSAttack) - A portable console aimed at making pentesting with PowerShell a little easier
 
 ## Tactical Response
 
 ### Event Logs
 
+- [WMI Event Log Collection in Autoit](https://www.autoitscript.com/forum/topic/141626-collecting-event-logs-question/)
+- [Autoit Function Event Log Opening](https://www.autoitscript.com/autoit3/docs/libfunctions/_EventLog__Open.htm)
 - [Investigating Powershell: Command and Script Logging](http://www.crowdstrike.com/blog/investigating-powershell-command-and-script-logging/)
 - [A Forensic Analysis of APT Lateral Movement in Windows](https://www.first.org/resources/papers/conference2014/a-forensic-analysis-of-apt-lateral-movement-in-windows-environment.pptx)
 - [Spotting the Adversary with Windows Event Log Monitoring](https://www.nsa.gov/ia/_files/app/spotting_the_adversary_with_windows_event_log_monitoring.pdf)
 - [EVTXtract](https://github.com/williballenthin/EVTXtract) - Tool to recover and reconstruct fragments of EVTX log files from raw binary data, including unallocated space
 - [Process Forest](https://github.com/williballenthin/process-forest) - Tool to reconstruct the historical process heirarchies from event logs
+- [Tracking Lateral Movement](https://blogs.technet.microsoft.com/jepayne/2015/11/26/tracking-lateral-movement-part-one-special-groups-and-specific-service-accounts/)
 
 
 ### DNS Logs
@@ -197,6 +217,8 @@ Autoit Resources:
 - [Identifying Lateral Movement]
 - [Lateral Movement Detection](http://sysforensics.org/2014/01/lateral-movement/)
 - [Monitoring Behaviors on Endpoints](https://conf.splunk.com/session/2014/conf2014_MikeKemmerer_Mitre_Security.pdf)
+- [Detecting and Preventing Data Exfiltration](https://www.cpni.gov.uk/Documents/Publications/2014/2014-04-11-de_lancaster_technical_report.pdf)
+
 ### Memory Analysis
 
 - [Detect Malware with Memory Forensics](http://www.deer-run.com/~hal/Detect_Malware_w_Memory_Forensics.pdf)
