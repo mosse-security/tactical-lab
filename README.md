@@ -94,8 +94,18 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- List items in zip
 	- Search a File in the Zip Archive
 	- Search in each File of the Zip Archive
-
-- [AD](https://www.autoitscript.com/forum/files/file/355-ad-active-directory-udf/)
+- [comerrorhandler] - Error handler for taskplanerCOM
+- [EventLog] - Various functions for handling windows events
+- [Fast multi-client TCP server] - Template multi-client server code
+- [HKCUReg] - Perform registry operations on HKCU
+- [Memory and File Compression] - Functions for compression/decompression of data in memory and files
+- [Persistent Process Killer V3] - Code to sneakily run an executable to kill persistent processes
+- [Reg] - Deal with the registry and registry hives
+- [SecurityEx] - Enables or disables special privileges
+- [Services] - Windows service management for AutoIt
+- [taskplanerCOM] - Working with windows tasks
+- [taskplanerCOMtest] - Examples in using taskplanerCOM
+- [AD](https://www.autoitscript.com/forum/files/file/355-ad-active-directory-udf/) - Active directory functions
 
 ### Host Reconnaissance
 
