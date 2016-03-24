@@ -70,7 +70,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Building Better Tools](https://books.google.com.au/books?id=zOI5kYk13joC&pg=PA255&lpg=PA255&dq=information+gathering+compromised+machine+post+exploitation&source=bl&ots=f9DRVfxNV4&sig=GlcOKaYPtRvlyYhxo5jDFc771v4&hl=en&sa=X&ved=0ahUKEwiztMaxqLPLAhVC32MKHS3MADcQ6AEILDAD#v=onepage&q=information%20gathering%20compromised%20machine%20post%20exploitation&f=false) - Information on building penetration testing tools
 - [Process Hollowing](http://www.autosectools.com/process-hollowing.pdf) - Method to hide the presence of a process
 
-Autoit Resources:
+### Autoit Resources:
 - [Windows Firewall](https://www.autoitscript.com/forum/topic/145158-windows-firewall-udf/)
 	- Enable or Disable the Windows Firewall
 	- Add or Remove Authorized Applications to the Exclusions list
@@ -247,6 +247,12 @@ Autoit Resources:
 - [Zeus Tracker](https://zeustracker.abuse.ch/blocklist.php)
 - [SSL Blacklist](https://sslbl.abuse.ch/)
 - [Binary Defense](http://www.binarydefense.com/banlist.txt)
+
+## Tactical Defence
+
+### Mimikatz Defence
+
+- [Defending Against Mimikatz](https://jimshaver.net/2016/02/14/defending-against-mimikatz/) - Information on preventing malicious mimikatz use
 
 ## Courses
 
