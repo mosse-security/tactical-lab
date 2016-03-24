@@ -65,10 +65,10 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Empire](https://github.com/PowerShellEmpire/Empire) - PowerShell post-exploitation agent
 - [Veil Evasion](https://github.com/Veil-Framework/Veil-Evasion) - Payload generator with a focus on AV evasion
 - [Gcat](https://github.com/byt3bl33d3r/gcat) - Backdoor that uses Gmail for C&C
-- [PowerBreach](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerBreach)
-- [PowerPick](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerPick)
-- [Building Better Tools](https://books.google.com.au/books?id=zOI5kYk13joC&pg=PA255&lpg=PA255&dq=information+gathering+compromised+machine+post+exploitation&source=bl&ots=f9DRVfxNV4&sig=GlcOKaYPtRvlyYhxo5jDFc771v4&hl=en&sa=X&ved=0ahUKEwiztMaxqLPLAhVC32MKHS3MADcQ6AEILDAD#v=onepage&q=information%20gathering%20compromised%20machine%20post%20exploitation&f=false)
-- [Process Hollowing](http://www.autosectools.com/process-hollowing.pdf)
+- [PowerBreach](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerBreach) - Backdoor toolkit
+- [PowerPick](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerPick) - Powershell functionality without powershell.exe
+- [Building Better Tools](https://books.google.com.au/books?id=zOI5kYk13joC&pg=PA255&lpg=PA255&dq=information+gathering+compromised+machine+post+exploitation&source=bl&ots=f9DRVfxNV4&sig=GlcOKaYPtRvlyYhxo5jDFc771v4&hl=en&sa=X&ved=0ahUKEwiztMaxqLPLAhVC32MKHS3MADcQ6AEILDAD#v=onepage&q=information%20gathering%20compromised%20machine%20post%20exploitation&f=false) - Information on building penetration testing tools
+- [Process Hollowing](http://www.autosectools.com/process-hollowing.pdf) - Method to hide the presence of a process
 
 Autoit Resources:
 - [Windows Firewall](https://www.autoitscript.com/forum/topic/145158-windows-firewall-udf/)
@@ -107,14 +107,14 @@ Autoit Resources:
 
 ### Network Reconnaissance
 
-- [Scanning and Enumeration](http://booksite.elsevier.com/samplechapters/9781597496278/Chapter_3.pdf)
-- [Hunting for Sensitive Data with Veil](https://www.veil-framework.com/hunting-sensitive-data-veil-framework/)
-- [Post Exploitation Redux](http://www.counterhack.net/talks/Post%20Exploitation%20Redux%20-%20Skoudis&StrandSMALL.pdf)
+- [Scanning and Enumeration](http://booksite.elsevier.com/samplechapters/9781597496278/Chapter_3.pdf) - Information on reconnaissance techniques
+- [Hunting for Sensitive Data with Veil](https://www.veil-framework.com/hunting-sensitive-data-veil-framework/) - Using veil to data mine file shares
+- [Post Exploitation Redux](http://www.counterhack.net/talks/Post%20Exploitation%20Redux%20-%20Skoudis&StrandSMALL.pdf) - Useful post-exploitation commands
 - [Lanmap2](https://github.com/rflynn/lanmap2) - Builds database and visualizations of LAN structure from passively sifted information
 - [IVRE](https://github.com/cea-sec/ivre) - Network reconnaissance framework
 - [Networkenum](https://github.com/maksaraswat/networkenum/) - Network enumerator that uses the Scapy framework
 - [NMAP Network Scanning](https://nmap.org/book/man-performance.html) - Modifying NMAP's timings
-- [PowerView](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerView)
+- [PowerView](https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerView) - Powershell tool for network awareness
 
 ### Privilege Escalation
 
