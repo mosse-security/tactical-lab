@@ -35,10 +35,10 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 ### Getting In
 
 - [The Harvester](https://github.com/laramies/theHarvester) - Information gathering tool utilizing public sources to gain information on a company/organization
-- [The Art of Human Hacking](https://sin.thecthulhu.com/library/security/social_engineering/The_Art_of_Human_Hacking.pdf)
-- [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf)
+- [The Art of Human Hacking](https://sin.thecthulhu.com/library/security/social_engineering/The_Art_of_Human_Hacking.pdf) - Guide to social engineering
+- [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf) - How to use the social engineering toolkit
 - [Ettercap](https://github.com/Ettercap/ettercap) - Suite of Man-In-The-Middle attacks
-- [Ettercap Tutorial](http://www.thegeekstuff.com/2012/05/ettercap-tutorial/)
+- [Ettercap Tutorial](http://www.thegeekstuff.com/2012/05/ettercap-tutorial/) - How to use ettercap
 - [SPF SpeedPhishing Framework](https://github.com/tatanus/SPF) - Python tool for quick phishing exercises
 - [SeeS](https://github.com/galkan/sees/) - Phishing email domain spoofer
 - [Generate-Macro](https://github.com/enigma0x3/Generate-Macro) - Malicious Microsoft Office doc generator
@@ -48,7 +48,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Phishing Frenzy](https://github.com/pentestgeek/phishing-frenzy) - Ruby on Rails Phishing Framework
 - [PhEmail](https://github.com/Dionach/PhEmail) - Python email phishing automator
 - [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) - Social engineering framework with multiple attack vectors
-- [Beginning with the Social Engineering Toolkit](http://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/)
+- [Beginning with the Social Engineering Toolkit](http://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/) - Guide on using the social engineering toolkit
 - [THC Hydra](https://github.com/vanhauser-thc/thc-hydra) - Login bruteforcer
 
 ### Web Backdoors
@@ -128,21 +128,21 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 ### Privilege Escalation
 
-- [All Roads Lead to System](https://labs.mwrinfosecurity.com/system/assets/760/original/Windows_Services_-_All_roads_lead_to_SYSTEM.pdf)
+- [All Roads Lead to System](https://labs.mwrinfosecurity.com/system/assets/760/original/Windows_Services_-_All_roads_lead_to_SYSTEM.pdf) - Information on the implications of misconfigured Windows Services
 - [Encyclopaedia Of Windows Privilege Escalation](https://www.insomniasec.com/downloads/publications/WindowsPrivEsc.ppt) - Most common privilege escalation techniques up to 2011.
 - [PowerUp](https://github.com/HarmJ0y/PowerUp) - Powershell privilege escalation tool.
 - [Group Policy Hijacking](https://labs.mwrinfosecurity.com/blog/2015/04/02/how-to-own-any-windows-network-with-group-policy-hijacking-attacks/) - Group policy hijacking example and description
 
 ### Persistence
 
-- [Using WMI to Build a Backdoor](https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor.pdf)
-- [Many Ways of Malware Persistence](http://jumpespjump.blogspot.com.au/2015/05/many-ways-of-malware-persistence-that.html) 
-- [Triggers as a Windows Persistence Mechanism](http://trustedsignal.blogspot.com/2014/02/triggers-as-windows-persistence.html)
-- [Persistence Wiki](https://attack.mitre.org/wiki/Persistence)
-- [Practical Persistence with PowerShell](http://www.exploit-monday.com/2013/04/PersistenceWithPowerShell.html)
-- [Persistence - Powerpreter and Nishang](http://www.labofapenetrationtester.com/2014/01/powerpreter-and-nishang-Part-3.html)
-- [Windows Registry Persistence Part 1](https://blog.cylance.com/windows-registry-persistence-part-1-introduction-attack-phases-and-windows-services)
-- [Windows Registry Persistence Part 2](https://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order)
+- [Using WMI to Build a Backdoor](https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor.pdf) - WMI for malicious use techniques and defences
+- [Many Ways of Malware Persistence](http://jumpespjump.blogspot.com.au/2015/05/many-ways-of-malware-persistence-that.html) - Various methods of malware persistence
+- [Triggers as a Windows Persistence Mechanism](http://trustedsignal.blogspot.com/2014/02/triggers-as-windows-persistence.html) - Using triggers for malware persistence
+- [Persistence Wiki](https://attack.mitre.org/wiki/Persistence) - Wiki page on persistence methods
+- [Practical Persistence with PowerShell](http://www.exploit-monday.com/2013/04/PersistenceWithPowerShell.html) - Using powershell for persistence
+- [Persistence - Powerpreter and Nishang](http://www.labofapenetrationtester.com/2014/01/powerpreter-and-nishang-Part-3.html) - Using powerpreter and nishang for persistence
+- [Windows Registry Persistence Part 1](https://blog.cylance.com/windows-registry-persistence-part-1-introduction-attack-phases-and-windows-services) - Windows Registry locations and techniques for persistence part 1
+- [Windows Registry Persistence Part 2](https://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order) - Windows Registry locations and techniques for persistence part 2
 
 
 ### Lateral Movement
@@ -151,22 +151,22 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [WMIOps](https://github.com/ChrisTruncer/WMIOps) - Using WMI for a variety of local and remote functions
 - [PAExec](https://github.com/poweradminllc/PAExec) - Remote execution tool
 - [Pivoter](https://github.com/trustedsec/pivoter) - Proxy tool to assist with lateral movement
-- [VPN Pivoting](http://blog.cobaltstrike.com/2014/10/14/how-vpn-pivoting-works-with-source-code/)
-- [Making the Lateral Move](http://blog.varonis.com/penetration-testing-explained-part-iv-making-the-lateral-move/)
+- [VPN Pivoting](http://blog.cobaltstrike.com/2014/10/14/how-vpn-pivoting-works-with-source-code/) - Using a VPN pivot
+- [Making the Lateral Move](http://blog.varonis.com/penetration-testing-explained-part-iv-making-the-lateral-move/) - Different methods to move laterally in a network
 - [SprayWMI](https://github.com/trustedsec/spraywmi) - SprayWMI is an easy way to get mass shells on systems that support WMI
 
 ### Mimikatz
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz) - Official Mimikatz source code repository.
-- [Dumping Passwords](http://carnal0wnage.attackresearch.com/2013/10/dumping-domains-worth-of-passwords-with.html)
-- [Mimikatz Unofficial Guide](https://adsecurity.org/?page_id=1821)
-- [Golden Ticket Walkthrough](http://www.beneaththewaves.net/Projects/Mimikatz_20_-_Golden_Ticket_Walkthrough.html)
-- [Pass the Hash](http://blog.cobaltstrike.com/2015/05/21/how-to-pass-the-hash-with-mimikatz/)
+- [Dumping Passwords](http://carnal0wnage.attackresearch.com/2013/10/dumping-domains-worth-of-passwords-with.html) - Using mimikatz to dump passwords
+- [Mimikatz Unofficial Guide](https://adsecurity.org/?page_id=1821) - Guide to using mimikatz
+- [Golden Ticket Walkthrough](http://www.beneaththewaves.net/Projects/Mimikatz_20_-_Golden_Ticket_Walkthrough.html) - Using mimikatz with golden tickets
+- [Pass the Hash](http://blog.cobaltstrike.com/2015/05/21/how-to-pass-the-hash-with-mimikatz/) - Passing the hash with mimikatz
 
 ### Exfiltration
 
-- [Post Exploitation Operations with Cloud Synchronization Services](https://media.blackhat.com/us-13/US-13-Williams-Post-Exploitation-Operations-with-Cloud-Synchronization-Services-WP.pdf)
-- [Threat Actors and Stealing Data](http://about-threats.trendmicro.com/cloud-content/us/ent-primers/pdf/how_do_threat_actors_steal_your_data.pdf)
+- [Post Exploitation Operations with Cloud Synchronization Services](https://media.blackhat.com/us-13/US-13-Williams-Post-Exploitation-Operations-with-Cloud-Synchronization-Services-WP.pdf) - Using cloud solutions with post exploitation techniques
+- [Threat Actors and Stealing Data](http://about-threats.trendmicro.com/cloud-content/us/ent-primers/pdf/how_do_threat_actors_steal_your_data.pdf) - Analysis on methods APTs use for data exfiltration
 - [Firecat](https://github.com/BishopFox/firecat) - Tool to create reverse TCP tunnels
 - [Advanced Data Exfiltration](http://www.iamit.org/blog/2012/01/advanced-data-exfiltration/) - Data exfiltration techniques including through VoIP
 - [Dnscat2](https://github.com/iagox86/dnscat2) - DNS tunnel with encryption and a focus on C&C
@@ -174,24 +174,24 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [ICMPTX](https://github.com/jakkarth/icmptx) - Tunnels IP over ICMP
 - [DNSteal](https://github.com/m57/dnsteal) - Tunnels data over DNS
 - [Egress Assess](https://github.com/ChrisTruncer/Egress-Assess) - Tunnel data over FTP, HTTP, HTTPS
-- [Using Egress Assess](https://www.christophertruncer.com/egress-assess-testing-egress-data-detection-capabilities/) 
-- [Egress Assess and Owning Data Exfiltration](http://www.slideshare.net/CTruncer/egressassess-and-owning-data-exfiltration)
-- [Exfiltrating Data Via Video](http://www.darkreading.com/attacks-breaches/in-plain-sight-how-cyber-criminals-exfiltrate-data-via-video-/a/d-id/1316725)
+- [Using Egress Assess](https://www.christophertruncer.com/egress-assess-testing-egress-data-detection-capabilities/)- How to use the Egress Assess tool
+- [Egress Assess and Owning Data Exfiltration](http://www.slideshare.net/CTruncer/egressassess-and-owning-data-exfiltration) - Examples of using the Egress Assess tool
+- [Exfiltrating Data Via Video](http://www.darkreading.com/attacks-breaches/in-plain-sight-how-cyber-criminals-exfiltrate-data-via-video-/a/d-id/1316725) - How to exfiltrate data via video
 - [Network Tunneling Techniques]
 
 ### Miscellaneous
 
-- [Pentesting Procedure](https://stelfox.net/knowledge_base/pentesting/procedure/)
+- [Pentesting Procedure](https://stelfox.net/knowledge_base/pentesting/procedure/) - Information on the penetrating testing procedure
 - [Nishang](https://github.com/samratashok/nishang) - Framework which enables the usage of PowerShell for red teaming
 - [Zarp](https://github.com/hatRiot/zarp) - Network attack tool
 - [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - Variety of pentesting functions for Windows/Active Directory environments
 - [Ostinato](https://github.com/pstavirs/ostinato) - Packet/Traffic generator and analyzer
-- [Abusing Native Shims for Post Exploitation](http://sdb.tools/files/Defcon_v5.pdf)
-- [Meta Post Exploitation](https://www.blackhat.com/presentations/bh-usa-08/Smith_Ames/BH_US_08_Smith_Ames_Meta-Post_Exploitation.pdf)
-- [Information Gathering](http://profs.info.uaic.ro/~busaco/teach/courses/net/docs/infonet.pdf)
-- [Empire Offensive Powershell Part 1](https://www.youtube.com/watch?v=aDeJBe6eqps)
-- [Empire Offensive Powershell Part 2](https://www.youtube.com/watch?v=t2iIIvm1oyk)
-- [Empire Offensive Powershell Part 3](https://www.youtube.com/watch?v=XHe1ECERGpA)
+- [Abusing Native Shims for Post Exploitation](http://sdb.tools/files/Defcon_v5.pdf) - How to use native shims for post exploitation tasks
+- [Meta Post Exploitation](https://www.blackhat.com/presentations/bh-usa-08/Smith_Ames/BH_US_08_Smith_Ames_Meta-Post_Exploitation.pdf) - Information about the use of automation and tactical tools post-exploitation
+- [Information Gathering](http://profs.info.uaic.ro/~busaco/teach/courses/net/docs/infonet.pdf) - Information gathering steps
+- [Empire Offensive Powershell Part 1](https://www.youtube.com/watch?v=aDeJBe6eqps) - Guide to using Empire part 1
+- [Empire Offensive Powershell Part 2](https://www.youtube.com/watch?v=t2iIIvm1oyk) - Guide to using Empire part 2
+- [Empire Offensive Powershell Part 3](https://www.youtube.com/watch?v=XHe1ECERGpA) - Guide to using Empire part 3
 - [Powercat](https://github.com/besimorhino/powercat) - Netcat: The powershell version
 - [PSAttack](https://github.com/gdssecurity/PSAttack) - A portable console aimed at making pentesting with PowerShell a little easier
 
@@ -199,53 +199,53 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 ### Event Logs
 
-- [WMI Event Log Collection in Autoit](https://www.autoitscript.com/forum/topic/141626-collecting-event-logs-question/)
-- [Autoit Function Event Log Opening](https://www.autoitscript.com/autoit3/docs/libfunctions/_EventLog__Open.htm)
-- [Investigating Powershell: Command and Script Logging](http://www.crowdstrike.com/blog/investigating-powershell-command-and-script-logging/)
-- [A Forensic Analysis of APT Lateral Movement in Windows](https://www.first.org/resources/papers/conference2014/a-forensic-analysis-of-apt-lateral-movement-in-windows-environment.pptx)
-- [Spotting the Adversary with Windows Event Log Monitoring](https://www.nsa.gov/ia/_files/app/spotting_the_adversary_with_windows_event_log_monitoring.pdf)
+- [WMI Event Log Collection in Autoit](https://www.autoitscript.com/forum/topic/141626-collecting-event-logs-question/) - Script for dealing with event logs in autoit
+- [Autoit Function Event Log Opening](https://www.autoitscript.com/autoit3/docs/libfunctions/_EventLog__Open.htm) - Script for opening and dealing with event logs in autoit
+- [Investigating Powershell: Command and Script Logging](http://www.crowdstrike.com/blog/investigating-powershell-command-and-script-logging/) - How to log and investigate powershell use
+- [A Forensic Analysis of APT Lateral Movement in Windows](https://www.first.org/resources/papers/conference2014/a-forensic-analysis-of-apt-lateral-movement-in-windows-environment.pptx) - Investigating lateral movement using event logs
+- [Spotting the Adversary with Windows Event Log Monitoring](https://www.nsa.gov/ia/_files/app/spotting_the_adversary_with_windows_event_log_monitoring.pdf) - NSA paper on monitoring event logs for malicious attacks
 - [EVTXtract](https://github.com/williballenthin/EVTXtract) - Tool to recover and reconstruct fragments of EVTX log files from raw binary data, including unallocated space
 - [Process Forest](https://github.com/williballenthin/process-forest) - Tool to reconstruct the historical process heirarchies from event logs
-- [Tracking Lateral Movement](https://blogs.technet.microsoft.com/jepayne/2015/11/26/tracking-lateral-movement-part-one-special-groups-and-specific-service-accounts/)
+- [Tracking Lateral Movement](https://blogs.technet.microsoft.com/jepayne/2015/11/26/tracking-lateral-movement-part-one-special-groups-and-specific-service-accounts/) - Tracking lateral movement using event logs
 
 
 ### DNS Logs
 
-- [DNS Traffic Monitoring1](http://www.securityskeptic.com/DNS_Monitoring20140130.pdf)
-- [Using Log Correlation Engine to Monitor DNS](http://static.tenable.com/prod_docs/LCE_DNS.pdf)
-- [DNS Traffic Monitoring2](http://mastersicurezza.di.uniroma1.it/mastersicurezza/images/materiali/Convegni/dns_monitoringdeftcon2015.pdf) 
-- [Monitor DNS Traffic & You Just Might Catch A RAT](http://www.darkreading.com/attacks-breaches/monitor-dns-traffic-and-you-just-might-catch-a-rat/a/d-id/1269593)
+- [DNS Traffic Monitoring1](http://www.securityskeptic.com/DNS_Monitoring20140130.pdf) - How to identify malicious DNS traffic
+- [Using Log Correlation Engine to Monitor DNS](http://static.tenable.com/prod_docs/LCE_DNS.pdf) - Examples and detection of malicious DNS logs
+- [DNS Traffic Monitoring2](http://mastersicurezza.di.uniroma1.it/mastersicurezza/images/materiali/Convegni/dns_monitoringdeftcon2015.pdf) - Defcon presentation on DNS monitoring
+- [Monitor DNS Traffic & You Just Might Catch A RAT](http://www.darkreading.com/attacks-breaches/monitor-dns-traffic-and-you-just-might-catch-a-rat/a/d-id/1269593) - Looking for RATs in DNS traffic
 
 ### Web Logs
 
-- [Web Server Log Analysis](http://forensicmethods.com/webshell-log-analysis)
-- [Apache Scalp](https://code.google.com/archive/p/apache-scalp/)
+- [Web Server Log Analysis](http://forensicmethods.com/webshell-log-analysis) - Locations and information regarding web logs
+- [Apache Scalp](https://code.google.com/archive/p/apache-scalp/) - Scalp! is a log analyzer for the Apache web server that aims to look for security problems
 
 ### System Survey
 
 - [Cheat Sheet]
 - [Identifying Lateral Movement]
-- [Lateral Movement Detection](http://sysforensics.org/2014/01/lateral-movement/)
-- [Monitoring Behaviors on Endpoints](https://conf.splunk.com/session/2014/conf2014_MikeKemmerer_Mitre_Security.pdf)
-- [Detecting and Preventing Data Exfiltration](https://www.cpni.gov.uk/Documents/Publications/2014/2014-04-11-de_lancaster_technical_report.pdf)
+- [Lateral Movement Detection](http://sysforensics.org/2014/01/lateral-movement/) - Event logs and artefacts created when moving laterally in a network
+- [Monitoring Behaviors on Endpoints](https://conf.splunk.com/session/2014/conf2014_MikeKemmerer_Mitre_Security.pdf) - Discovering threats by monitoring endpoint behaviour
+- [Detecting and Preventing Data Exfiltration](https://www.cpni.gov.uk/Documents/Publications/2014/2014-04-11-de_lancaster_technical_report.pdf) - Detecting data exfiltration by analysing various exfiltration methods
 
 ### Memory Analysis
 
-- [Detect Malware with Memory Forensics](http://www.deer-run.com/~hal/Detect_Malware_w_Memory_Forensics.pdf)
-- [Hunting Malware with Memory Analysis](https://www.solutionary.com/resource-center/blog/2012/12/hunting-malware-with-memory-analysis/)
-- [Introduction to Windows Memory Analysis](https://www.youtube.com/watch?v=SjDH_vTuefM)
-- [Volatility](http://www.volatilityfoundation.org/)
-- [Volatility Documentation Project](https://github.com/volatilityfoundation/volatility/wiki/Volatility-Documentation-Project)
+- [Detect Malware with Memory Forensics](http://www.deer-run.com/~hal/Detect_Malware_w_Memory_Forensics.pdf) - 	Analysis of memory forensic techniques for malware detection
+- [Hunting Malware with Memory Analysis](https://www.solutionary.com/resource-center/blog/2012/12/hunting-malware-with-memory-analysis/) - Examples of memory analysis techniques
+- [Introduction to Windows Memory Analysis](https://www.youtube.com/watch?v=SjDH_vTuefM) - Memory analysis guide
+- [Volatility](http://www.volatilityfoundation.org/) - Tool for memory analysis
+- [Volatility Documentation Project](https://github.com/volatilityfoundation/volatility/wiki/Volatility-Documentation-Project) - Documentation for the Volatility tool
 - [Volatility Cheat Sheet]
 
 ### Threat Intelligence
 
-- [The Diamond Model of Intrustion Analysis](https://www.threatconnect.com/wp-content/uploads/ThreatConnect-The-Diamond-Model-of-Intrusion-Analysis.pdf)
+- [The Diamond Model of Intrustion Analysis](https://www.threatconnect.com/wp-content/uploads/ThreatConnect-The-Diamond-Model-of-Intrusion-Analysis.pdf) - Exploring the diamond model regarding threat intelligence
 - [Leveraging Threat Intelligence in Incident Respponse/Management]
 - [APT Notes](https://github.com/kbandla/APTnotes) - Various public documents, whitepapers and articles about APT campaigns.
 - [APT Notes Extension](https://aptnotes.malwareconfig.com/) - An extension of the work done by @kbandla to collate a repository of public Cyber Security APT Reports.
-- [DML Model for Threat Intelligence](https://www.novainfosec.com/2016/02/12/the-dml-model/)
-- [F3EAD for Offensive Response](https://www.academia.edu/12339861/The_Cyber_Kill_Chain_Employing_F3EAD_For_Offensive_Response_Actions_-_Counter_Russia_China_Iran_Terrorist_Organizations)
+- [DML Model for Threat Intelligence](https://www.novainfosec.com/2016/02/12/the-dml-model/) - Exploring the DML model regarding threat intelligence
+- [F3EAD for Offensive Response](https://www.academia.edu/12339861/The_Cyber_Kill_Chain_Employing_F3EAD_For_Offensive_Response_Actions_-_Counter_Russia_China_Iran_Terrorist_Organizations) - Using the F3EAD model for threat intelligence
 
 #### Information Feeds
 
