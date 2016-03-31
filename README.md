@@ -8,6 +8,9 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 - [Tactical Exploitation](#tactical-exploitation)
 	- [Getting In](#getting-in)
+		- [Social Engineering](#social-engineering)
+		- [Fishing](#fishing)
+		- [Man in the Middle](#man-in-the-middle)
 	- [Web Backdoors](#web-backdoors)
 	- [Malware Prototyping](#malware-prototyping)
 	- [Host Reconnaissance](#host-reconnaissance)
@@ -26,8 +29,10 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- [System Survey](#system-survey)
 	- [Memory Analysis](#memory-analysis)
 	- [Threat Intelligence](#threat-intelligence)
+
 - [Tactical Defence](#tactical-defence)
 	- [Mimikatz Defence](#mimikatz-defence)
+
 - [Courses](#courses)
 
 ## Tactical Exploitation
@@ -35,24 +40,33 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 ### Getting In
 
 - [The Harvester](https://github.com/laramies/theHarvester) - Information gathering tool utilizing public sources to gain information on a company/organization
-- [The Art of Human Hacking](https://sin.thecthulhu.com/library/security/social_engineering/The_Art_of_Human_Hacking.pdf) - Guide to social engineering
-- [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf) - How to use the social engineering toolkit
-- [Ettercap](https://github.com/Ettercap/ettercap) - Suite of Man-In-The-Middle attacks
-- [Ettercap Tutorial](http://www.thegeekstuff.com/2012/05/ettercap-tutorial/) - How to use ettercap
-- [SPF SpeedPhishing Framework](https://github.com/tatanus/SPF) - Python tool for quick phishing exercises
-- [SeeS](https://github.com/galkan/sees/) - Phishing email domain spoofer
 - [Generate-Macro](https://github.com/enigma0x3/Generate-Macro) - Malicious Microsoft Office doc generator
 - [Gitrob](https://github.com/michenriksen/gitrob) - GitHub organizations reconnaissance tool, hunts for sensitive data
-- [Weevely3](https://github.com/epinna/weevely3) - Web shell
-- [QuasiBot](https://github.com/Smaash/quasibot) - Web shell manager
+- [THC Hydra](https://github.com/vanhauser-thc/thc-hydra) - Login bruteforcer
+
+#### Social Engineering
+
+- [The Art of Human Hacking](https://sin.thecthulhu.com/library/security/social_engineering/The_Art_of_Human_Hacking.pdf) - Guide to social engineering
+- [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) - Social engineering framework with multiple attack vectors
+- [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf) - How to use the social engineering toolkit
+- [Beginning with the Social Engineering Toolkit](http://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/) - Guide on using the social engineering toolkit
+
+#### Fishing
+
 - [Phishing Frenzy](https://github.com/pentestgeek/phishing-frenzy) - Ruby on Rails Phishing Framework
 - [PhEmail](https://github.com/Dionach/PhEmail) - Python email phishing automator
-- [Social Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) - Social engineering framework with multiple attack vectors
-- [Beginning with the Social Engineering Toolkit](http://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/) - Guide on using the social engineering toolkit
-- [THC Hydra](https://github.com/vanhauser-thc/thc-hydra) - Login bruteforcer
+- [SPF SpeedPhishing Framework](https://github.com/tatanus/SPF) - Python tool for quick phishing exercises
+- [SeeS](https://github.com/galkan/sees/) - Phishing email domain spoofer
+
+#### Man in the Middle
+
+- [Ettercap](https://github.com/Ettercap/ettercap) - Suite of Man-In-The-Middle attacks
+- [Ettercap Tutorial](http://www.thegeekstuff.com/2012/05/ettercap-tutorial/) - How to use ettercap
 
 ### Web Backdoors
 
+- [Weevely3](https://github.com/epinna/weevely3) - Web shell
+- [QuasiBot](https://github.com/Smaash/quasibot) - Web shell manager
 - [PhpSploit](https://github.com/nil0x42/phpsploit) - Stealth post-exploitation framework with a focus on privilege escalation
 
 ### Malware Prototyping
@@ -94,18 +108,63 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- List items in zip
 	- Search a File in the Zip Archive
 	- Search in each File of the Zip Archive
-- [comerrorhandler] - Error handler for taskplanerCOM
-- [EventLog] - Various functions for handling windows events
-- [Fast multi-client TCP server] - Template multi-client server code
-- [HKCUReg] - Perform registry operations on HKCU
-- [Memory and File Compression] - Functions for compression/decompression of data in memory and files
-- [Persistent Process Killer V3] - Code to sneakily run an executable to kill persistent processes
-- [Reg] - Deal with the registry and registry hives
-- [SecurityEx] - Enables or disables special privileges
-- [Services] - Windows service management for AutoIt
-- [taskplanerCOM] - Working with windows tasks
-- [taskplanerCOMtest] - Examples in using taskplanerCOM
-- [AD](https://www.autoitscript.com/forum/files/file/355-ad-active-directory-udf/) - Active directory functions
+- [comerrorhandler]
+	- Catch and print COM errors
+- [EventLog]
+	- Backup event logs
+	- Clear event logs
+	- Open and close event logs
+	- Count event logs
+	- Decode data from event logs
+	- Enable applications to receieve event notifications
+	- Read event logs
+	- Write to event logs
+- [Fast multi-client TCP server]
+	- Open and close TCP connections
+- [HKCUReg]
+	- Delete keys or values from registry
+	- Read keys or values from registry
+	- Import previously exported reg files to registry
+	- Create a key or value in registry
+	- Determine each user's Profile folder, the user's SID and if the profile is loaded to the registry
+- [Memory and File Compression]
+	- Decompress input binary data
+	- Compress input data
+- [Persistent Process Killer V3]
+	- Scan for running processes
+	- Kill specific processes whenever they're started
+	- Track and compare running processes over time
+- [Reg]
+	- Load or unload registry hives
+	- Restore or save to registry hive
+	- Connect to remote registries
+	- Read registry keys or values
+	- Create or delete registry keys or values
+- [SecurityEx]
+	- Enables or disables special privileges as required by some DllCalls
+- [Services]
+	- Create or delete a service
+	- Check for service existence
+	- Retrieve a service's type
+	- Start or stop a service
+- [taskplanerCOM]
+	- Create or delete a task folder
+	- Check for task folder existence
+	- Check for task existence
+	- Stop or start a task
+	- Enable or disable a task
+	- Delete a task
+	- Check for task status
+	- List all tasks in a given task folder
+	- Create or delete a scheduled task
+- [AD](https://www.autoitscript.com/forum/files/file/355-ad-active-directory-udf/)
+	- Create users and groups
+	- Add or remove users to groups
+	- Get users or groups
+	- List domain controllers
+	- Change passwords
+	- Create and delete mailboxes
+	- Enable and disable password expiry 
 
 ### Host Reconnaissance
 
@@ -236,7 +295,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Introduction to Windows Memory Analysis](https://www.youtube.com/watch?v=SjDH_vTuefM) - Memory analysis guide
 - [Volatility](http://www.volatilityfoundation.org/) - Tool for memory analysis
 - [Volatility Documentation Project](https://github.com/volatilityfoundation/volatility/wiki/Volatility-Documentation-Project) - Documentation for the Volatility tool
-- [Volatility Cheat Sheet]
+- [Volatility Cheat Sheet](http://downloads.volatilityfoundation.org/releases/2.4/CheatSheet_v2.4.pdf)
 
 ### Threat Intelligence
 
