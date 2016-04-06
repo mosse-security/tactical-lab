@@ -108,9 +108,9 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- List items in zip
 	- Search a File in the Zip Archive
 	- Search in each File of the Zip Archive
-- [comerrorhandler]
+- [comerrorhandler](https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=48722)
 	- Catch and print COM errors
-- [EventLog]
+- [EventLog](https://github.com/forcedotcom/dataloader/blob/master/windows-dependencies/autoit/Include/EventLog.au3)
 	- Backup event logs
 	- Clear event logs
 	- Open and close event logs
@@ -119,35 +119,35 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 	- Enable applications to receieve event notifications
 	- Read event logs
 	- Write to event logs
-- [Fast multi-client TCP server]
+- [Fast multi-client TCP server](https://www.autoitscript.com/forum/topic/137221-fast-multi-client-tcp-server/)
 	- Open and close TCP connections
-- [HKCUReg]
+- [HKCUReg](https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=37026)
 	- Delete keys or values from registry
 	- Read keys or values from registry
 	- Import previously exported reg files to registry
 	- Create a key or value in registry
 	- Determine each user's Profile folder, the user's SID and if the profile is loaded to the registry
-- [Memory and File Compression]
+- [Memory and File Compression](https://www.autoitscript.com/forum/topic/87441-memory-compression/)
 	- Decompress input binary data
 	- Compress input data
-- [Persistent Process Killer V3]
+- [Persistent Process Killer V3](https://www.autoitscript.com/forum/topic/115230-persistent-process-killer-v3/)
 	- Scan for running processes
 	- Kill specific processes whenever they're started
 	- Track and compare running processes over time
-- [Reg]
+- [Reg](https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=33413)
 	- Load or unload registry hives
 	- Restore or save to registry hive
 	- Connect to remote registries
 	- Read registry keys or values
 	- Create or delete registry keys or values
-- [SecurityEx]
+- [SecurityEx](https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=37025)
 	- Enables or disables special privileges as required by some DllCalls
-- [Services]
+- [Services](https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=46910)
 	- Create or delete a service
 	- Check for service existence
 	- Retrieve a service's type
 	- Start or stop a service
-- [taskplanerCOM]
+- [taskplanerCOM](https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=48722)
 	- Create or delete a task folder
 	- Check for task folder existence
 	- Check for task existence
@@ -236,7 +236,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Using Egress Assess](https://www.christophertruncer.com/egress-assess-testing-egress-data-detection-capabilities/)- How to use the Egress Assess tool
 - [Egress Assess and Owning Data Exfiltration](http://www.slideshare.net/CTruncer/egressassess-and-owning-data-exfiltration) - Examples of using the Egress Assess tool
 - [Exfiltrating Data Via Video](http://www.darkreading.com/attacks-breaches/in-plain-sight-how-cyber-criminals-exfiltrate-data-via-video-/a/d-id/1316725) - How to exfiltrate data via video
-- [Network Tunneling Techniques]
+- [Network Tunneling Techniques](http://www.slideshare.net/inbroker/network-tunneling-techniques)
 
 ### Miscellaneous
 
@@ -282,8 +282,8 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 
 ### System Survey
 
-- [Cheat Sheet]
-- [Identifying Lateral Movement]
+- [Cheat Sheet](https://zeltser.com/security-incident-survey-cheat-sheet/)
+- [Identifying Lateral Movement](https://github.com/mosse-security/tactical-lab/blob/master/tactical-response/System%20Survey/Identifying%20Lateral%20Movement.pdf)
 - [Lateral Movement Detection](http://sysforensics.org/2014/01/lateral-movement/) - Event logs and artefacts created when moving laterally in a network
 - [Monitoring Behaviors on Endpoints](https://conf.splunk.com/session/2014/conf2014_MikeKemmerer_Mitre_Security.pdf) - Discovering threats by monitoring endpoint behaviour
 - [Detecting and Preventing Data Exfiltration](https://www.cpni.gov.uk/Documents/Publications/2014/2014-04-11-de_lancaster_technical_report.pdf) - Detecting data exfiltration by analysing various exfiltration methods
@@ -300,7 +300,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 ### Threat Intelligence
 
 - [The Diamond Model of Intrustion Analysis](https://www.threatconnect.com/wp-content/uploads/ThreatConnect-The-Diamond-Model-of-Intrusion-Analysis.pdf) - Exploring the diamond model regarding threat intelligence
-- [Leveraging Threat Intelligence in Incident Respponse/Management]
+- [Leveraging Threat Intelligence in Incident Response/Management](https://securosis.com/assets/library/reports/Securosis_ThreatIntelIncidentResponse_FINAL.pdf)
 - [APT Notes](https://github.com/kbandla/APTnotes) - Various public documents, whitepapers and articles about APT campaigns.
 - [APT Notes Extension](https://aptnotes.malwareconfig.com/) - An extension of the work done by @kbandla to collate a repository of public Cyber Security APT Reports.
 - [DML Model for Threat Intelligence](https://www.novainfosec.com/2016/02/12/the-dml-model/) - Exploring the DML model regarding threat intelligence
