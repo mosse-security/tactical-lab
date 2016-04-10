@@ -1,6 +1,6 @@
 ﻿# Tactical Lab
 
-> A curated list of tools, papers and techniques for Windows exploitation and incident response.
+> A curated list of tools, papers and techniques for Windows exploitation, incident response, and defence.
 
 Created by [Mosse Security](https://github.com/mosse-security "Mossé Security").
 
@@ -9,7 +9,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Tactical Exploitation](#tactical-exploitation)
 	- [Getting In](#getting-in)
 		- [Social Engineering](#social-engineering)
-		- [Fishing](#fishing)
+		- [Phishing](#phishing)
 		- [Man in the Middle](#man-in-the-middle)
 	- [Web Backdoors](#web-backdoors)
 	- [Malware Prototyping](#malware-prototyping)
@@ -51,7 +51,7 @@ Created by [Mosse Security](https://github.com/mosse-security "Mossé Security")
 - [Social Engineering Toolkit Guide](https://www.linuxvoice.com/issues/011/set.pdf) - How to use the social engineering toolkit
 - [Beginning with the Social Engineering Toolkit](http://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/) - Guide on using the social engineering toolkit
 
-#### Fishing
+#### Phishing
 
 - [Phishing Frenzy](https://github.com/pentestgeek/phishing-frenzy) - Ruby on Rails Phishing Framework
 - [PhEmail](https://github.com/Dionach/PhEmail) - Python email phishing automator
